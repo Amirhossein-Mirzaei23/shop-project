@@ -1,7 +1,7 @@
 <template>
     <main class="w-screen h-screen bg-gradient-to-t from-green-200 via-cyan-400 to-green-200 mx-auto backgroundImage" :style="{ backgroundImage: `url(${backgroundImagePath})` }">
     <br>
-    <header class="container w-full h-16 rounded-xl bg-violet-300 mx-auto">
+    <header class="container w-full h-16 rounded-xl bg-gradient-to-l from-green-300 via-stone-200 to-green-300 mx-auto">
     <div class="grid grid-cols-2 h-full">
 <!---navbar logo and Icon container--->
     <div id="navIconContioner" class="w-full grid grid-cols-5">
@@ -17,10 +17,10 @@
     </div>
 <!---navbar items--->          <!------>
   <div id="navbarContioner" class="w-full h-full grid grid-cols-4 gap-1 items-center justify-items-center">
-    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap delay-500 duration-1000 transition-all hover:animate-bounce"><button class="mx-auto">محصولات</button></div>
-    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap delay-500 duration-1000 transition-all hover:animate-bounce"><button class="mx-auto">فروشگاه</button></div>
-    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap delay-500 duration-1000 transition-all hover:animate-bounce"><button class="mx-auto">سبد خرید</button></div>
-    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse "><button class="mx-auto">تماس با ما</button></div>
+    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-2s animate__slower"><button class="mx-auto">محصولات</button></div>
+    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-3s animate__slower"><button class="mx-auto">فروشگاه</button></div>
+    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-4s animate__slower"><button class="mx-auto">سبد خرید</button></div>
+    <div class="w-8/12 h-5  flex items-center justify-items-center hover:bg-gradient-to-t from-green-400 to-emerald-400 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-5s animate__slower"><button class="mx-auto">تماس با ما</button></div>
     </div>
     </div>
     </header>
