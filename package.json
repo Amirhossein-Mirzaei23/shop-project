@@ -14,6 +14,7 @@
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.1",
     "postcss": "^8.4.33",
+    "sass": "^1.69.7",
     "tailwindcss": "^3.4.1",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
@@ -21,6 +22,8 @@
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "animate.css": "^4.1.1",
+    "vue-future-slider": "^1.0.5",
+    "vue-slick-carousel": "^1.0.6",
     "vue3-carousel-nuxt": "^1.1.0"
   }
 }

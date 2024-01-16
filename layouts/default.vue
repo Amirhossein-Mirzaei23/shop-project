@@ -24,7 +24,7 @@
     </div>
     </div>
     </header>
-
+<hr>
  <slot />
 
 <h1>footer</h1>

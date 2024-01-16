@@ -1,7 +1,9 @@
 <template>
   <Carousel v-bind="settings" :breakpoints="breakpoints">
-    <Slide v-for="slide in landingSlider" :key="slide">
-      <div class="carousel__item">{{ slide.page }}</div>
+    <Slide v-for="slide in products" :key="slide">
+      <div class="carousel__item bg-slate-300 w-11/12 mt-5 h-96 bg-opacity-50 ml-2">
+         <indexslideshow :slide=slide />
+       </div>
     </Slide>
 
     <template #addons>
@@ -9,12 +11,14 @@
       <Navigation />
     </template>
   </Carousel>
+  
 </template>
 
 <script>
 import { defineComponent } from 'vue'
 import { Carousel, Navigation, Slide, Pagination } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
+import Slider from '~/components/indexslideshow.vue'
 export default defineComponent({
   name: 'ExamplePagination',
   components: {
@@ -22,12 +26,13 @@ export default defineComponent({
     Carousel,
     Slide,
     Navigation,
+    Slider,
   },
   data: () => ({
     // carousel settings
     settings: {
       itemsToShow: 1,
-      snapAlign: 'center',
+      snapAlig:'center'
     },
     // breakpoints are mobile first
     // any settings not specified will fallback to the carousel settings
@@ -39,7 +44,7 @@ export default defineComponent({
       },
       // 1024 and up
       1024: {
-        itemsToShow: 5,
+        itemsToShow: 1,
         snapAlign: 'start',
       },
     },
@@ -49,16 +54,38 @@ export default defineComponent({
 
 
 <script setup>
-let landingSlider=[{
-page:"لورم اپسوم",
+useHead({
+   /// title:"Work Page"
+     titleTemplate:"%s - landing Page"
+})
+
+const number = ref(4)
+const {data:products}=useFetch(`/api/products?limit=${number.value}`)
+
+let landingSlider=[
+{
+number:1,
+img:`https://golekhune.com/uploads/products/ea8101.jpg`,
+title:'title',
+description:'amir & nazi'
 
 },
 {
+number:1,
+img:`https://mihancactus.com/wp-content/uploads/2019/03/%DA%AF%D9%84-%D8%B3%D8%A7%D8%B9%D8%AA%DB%8C.jpg`,
+title:'title',
+description:'amir & nazi'
 
 },
 {
+number:1,
+img:`../assets/images/floral-bg.jpg`,
+title:'title',
+description:'amir & nazi'
 
-},]
+},
+
+]
 
 
 </script>
