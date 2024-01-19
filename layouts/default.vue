@@ -37,7 +37,7 @@
 </script>
 
 <script>
-import backgroundImagePath from '~/assets/images/floral-bg.jpg'
+import backgroundImagePath from '~/assets/images/background.jpg'
 
 export default {
   data() {

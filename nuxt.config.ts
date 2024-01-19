@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    'vue3-carousel-nuxt'
+    'vue3-carousel-nuxt',
+    '@vueuse/nuxt',
+   
+
   ],
   css: ['~/assets/css/main.css','animate.css/animate.min.css'],
   postcss: {

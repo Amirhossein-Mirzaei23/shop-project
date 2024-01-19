@@ -54,13 +54,30 @@ export default defineComponent({
 
 
 <script setup>
+import { useFetch } from '@vueuse/core'
+
 useHead({
    /// title:"Work Page"
      titleTemplate:"%s - landing Page"
 })
 
-const number = ref(4)
-const {data:products}=useFetch(`/api/products?limit=${number.value}`)
+const number = ref(20)
+//const  {data:products}= await $fetch('https://dummyjson.com/products');
+const url=('https://api.escuelajs.co/api/v1/products')
+ const {data:products}= useFetch(url).json()
+
+
+//
+// const {data:products}=$fetch(`https://dummyjson.com/products/1`)
+//    function a(){
+//    $fetch('https://dummyjson.com/products/1').then(console.log);
+//    //.then(res => res.json())
+//    
+//     }
+//     a()
+  setTimeout(() => {
+  console.log(products);
+  },3000);
 
 let landingSlider=[
 {

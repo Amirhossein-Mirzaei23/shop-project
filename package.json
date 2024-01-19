@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.10.4",
+    "@vueuse/core": "^10.7.2",
+    "@vueuse/nuxt": "^10.7.2",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.1",
     "postcss": "^8.4.33",
@@ -23,6 +25,7 @@
     "@glidejs/glide": "^3.6.0",
     "animate.css": "^4.1.1",
     "vue-future-slider": "^1.0.5",
+    "vue-image-zoomer": "^2.2.3",
     "vue-slick-carousel": "^1.0.6",
     "vue3-carousel-nuxt": "^1.1.0"
   }
