@@ -1,4 +1,4 @@
 export default defineEventHandler(async (event)=>{
     const query = getQuery(event)
-    return await $fetch(`https://dummyjson.com/products`).then(res => res.json())
+    return `https://api.escuelajs.co/api/v1/${query}`
 })

@@ -32,7 +32,7 @@ console.log(slide);
 
 
 let color='red'
-let carsoulImg= document.getElementById("carsoulImg")
+// let carsoulImg= document.getElementById("carsoulImg")
 
 let x=ref(0)
 let y=ref(0)
