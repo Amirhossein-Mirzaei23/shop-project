@@ -57,44 +57,23 @@ export default defineComponent({
 import { useFetch } from '@vueuse/core'
 
 useHead({
-   /// title:"Work Page"
      titleTemplate:"%s - landing Page"
 })
 
-//  const number = ref(20)
-//  const  {data:products}= await $fetch('https://dummyjson.com/products'); 
-//  const qury='products'
+
   const url=('https://api.escuelajs.co/api/v1/products?offset=6&limit=16')
   const {data:products}= await useFetch(url).json()
 
 
-//    const qury='products'
-//    const url=`/api/${qury}`
-//   const {data:products} = await useFetch(`/api/products`).json()
 
 
- //  console.log(url);
- // const {data:products} = await useAsyncData(()=>useFetch(`/api/${qury}`))
- // const {data:products, pending, error, refresh} = await useAsyncData('products', () => ($fetch(`/api/${qury}`)))
- // const produc=(()=> products).json()
- // console.log(produc);
-
-//  console.log(products);
-//////////////////////////////////////////////////////////////////////////////
-//     const number = ref(8)
-//     const {data:products, pending, error, refresh} = await useAsyncData('products', () => $fetch(`/api/products?limit=${number.value}`))
-
-
-
-//
-// const {data:products}=$fetch(`https://dummyjson.com/products/1`)
-//    function a(){
-//    $fetch('https://dummyjson.com/products/1').then(console.log);
-//    //.then(res => res.json())
-//    
-//     }
-//     a()
-
+//  const qury='products'
+//  const url=`/api/${qury}`
+//  const {data:products} = await useFetch(`/api/products`).json()
+//  const {data:products} = await useAsyncData(()=>useFetch(`/api/${qury}`,{
+//    method:'Get'
+//  }))
+//  const {data:products} = await useAsyncData('products', () => ($fetch(`/api/${qury}`)))
 </script>
 
 <style lang="scss" scoped>

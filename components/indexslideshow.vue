@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full grid grid-cols-3" :style="`background-image:url()`">
+    <div  class="w-full h-full grid grid-cols-3" :style="`background-image:url()`">
       <div id="sliderImageElem" class="fadeIn flex items-center overflow-hidden">
       <div id="carsoulImg" class="p-2 bg-slate-400 m-auto rounded-lg">
        <img  @mousemove="xClient" @mouseleave="DefaultImageMargin" :style="{ marginLeft:`${x}px`,marginTop:`${y}px`}" :src="slide.images[0]" class="max-w-80 w-80 max-h-80 m-auto" />
@@ -8,7 +8,7 @@
       
       <div class="col-span-2 h-5/6 w-11/12 m-auto grid grid-rows-4">
 
-      <h1 class="text-right font-serif text-5xl">{{slide.title}}</h1>
+      <NuxtLink to="/products/singleProducts" :id=slide.id><h1 class="text-right font-serif text-5xl hover:text-slate-600">{{slide.title}}</h1></NuxtLink>
      
       <p class="text-slate-600 font-thin text-left row-span-2 mt-5 ">{{slide.description}}</p>
       
