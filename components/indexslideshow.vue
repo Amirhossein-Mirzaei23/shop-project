@@ -8,7 +8,7 @@
       
       <div class="col-span-2 h-5/6 w-11/12 m-auto grid grid-rows-4">
 
-      <NuxtLink to="/products/singleProducts" :id=slide.id><h1 class="text-right font-serif text-5xl hover:text-slate-600">{{slide.title}}</h1></NuxtLink>
+      <NuxtLink :to="`/products/${slide.id}`" :id=slide.id><h1 class="text-right font-serif text-5xl hover:text-slate-600">{{slide.title}}</h1></NuxtLink>
      
       <p class="text-slate-600 font-thin text-left row-span-2 mt-5 ">{{slide.description}}</p>
       
