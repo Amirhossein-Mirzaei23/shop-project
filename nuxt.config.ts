@@ -17,9 +17,14 @@ export default defineNuxtConfig({
   app:{
     head:{
       title :"Shop",
+    script:[
+      {src:"toastr.js"}
+    ],
       link:[
-        {rel:'stylesheet',href:"node_modules/@glidejs/glide/dist/css/glide.core.min.css"}
+        {rel:'stylesheet',href:"node_modules/@glidejs/glide/dist/css/glide.core.min.css"},
+        {rel:"stylesheet",href:"toastr.css"}
       ],
+
     }
   }
 })

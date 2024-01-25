@@ -2,7 +2,7 @@
     <div  class="w-full h-full grid grid-cols-3" :style="`background-image:url()`">
       <div id="sliderImageElem" class="fadeIn flex items-center overflow-hidden">
       <div id="carsoulImg" class="p-2 bg-slate-400 m-auto rounded-lg">
-       <img  @mousemove="xClient" @mouseleave="DefaultImageMargin" :style="{ marginLeft:`${x}px`,marginTop:`${y}px`}" :src="slide.images[0]" class="max-w-80 w-80 max-h-80 m-auto" />
+       <img  @mousemove="xClient" @mouseleave="DefaultImageMargin" :style="{ marginLeft:`${x}px`,marginTop:`${y}px`}" :src="slide.images[1]" class="max-w-80 w-80 max-h-80 m-auto" />
       </div>
     </div>
       
@@ -40,7 +40,7 @@ let y=ref(0)
   function xClient(event){
     let clientX=event.clientX
     let clientY=event.clientY
-    console.log(screen.availWidth);
+    console.log(clientX);
   if ((Math.abs(clientX)/340)>.5) {
     clientX=-clientX
   }

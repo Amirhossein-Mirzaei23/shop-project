@@ -17,10 +17,10 @@
     </div>
 <!---navbar items--->          <!------>
   <div id="navbarContioner" class="w-full h-full grid grid-cols-4 gap-1 items-center justify-items-center">
-    <div class="w-8/12 h-5 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-2s animate__slow"><button class="mx-auto">تماس با ما</button></div>
-    <div class="w-8/12 h-5 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-3s animate__slow"><button class="mx-auto">فروشگاه</button></div>
-    <div class="w-8/12 h-5 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-4s animate__slow"><button class="mx-auto">سبد خرید</button></div>
-    <div class="w-8/12 h-5 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg p-4 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-5s animate__slow"><button class="mx-auto">محصولات</button></div>
+    <div class="w-8/12 h-5/6 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg px-1 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-2s animate__slow"><button id="1" @mouseover="navbar.itemOne=true;"  @mouseleave="navbar.itemOne=false"   class="w-11/12 h-full mx-auto"><img v-if="navbar.itemOne" class="w-6/12 mx-auto hover:scale-110 hover:animate-spin" src="~/assets/images/navbar/call-centerpng.png" alt=""><p v-if="!navbar.itemOne">تماس با ما</p></button></div>
+    <div class="w-8/12 h-5/6 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg px-1 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-3s animate__slow"><button id="2" @mouseover="navbar.itemtwo=true  " @mouseleave="navbar.itemtwo=false"   class="w-11/12 h-full mx-auto"><img v-if="navbar.itemtwo" class="w-6/12 mx-auto hover:scale-110 hover:animate-spin"  src="~/assets/images/navbar/1693501.webp" alt=""><p v-if="!navbar.itemtwo">استخدام</p></button></div>
+    <div class="w-8/12 h-5/6 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg px-1 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-4s animate__slow"><button id="3" @mouseover="navbar.itemthree=true" @mouseleave="navbar.itemthree=false" class="w-11/12 h-full mx-auto"><img v-if="navbar.itemthree" class="w-6/12 mx-auto hover:scale-110 hover:animate-spin" src="~/assets/images/navbar/shopStoreIcon.png" alt=""><p v-if="!navbar.itemthree">فروشگاه</p></button></div>
+    <div class="w-10/12 h-5/6 flex items-center justify-items-center hover:shadow-xl hover:shadow-violet-400 border-b-2 hover:-translate-y-10 border-zinc-100 rounded-lg px-1 text-nowrap animate__animated animate__infinite animate__pulse animate__delay-5s animate__slow"><button id="4" @mouseover="navbar.itemfour=true " @mouseleave="navbar.itemfour=false"  class="w-11/12 h-full mx-auto"><img v-if="navbar.itemfour" class="w-6/12 mx-auto hover:scale-110 hover:animate-spin" src="~/assets/images/navbar/categories.png" alt=""><p v-if="!navbar.itemfour">دسته بندی کالا ها</p></button></div>
     </div>
     </div>
     </header>
@@ -33,6 +33,13 @@
 </template>
 
 <script setup>
+
+const navbar=reactive({
+  itemOne:false,
+  itemtwo:false,
+  itemthree:false,
+  itemfour:false,
+})
 
 </script>
 

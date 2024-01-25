@@ -24,6 +24,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "animate.css": "^4.1.1",
+    "toastr": "^2.1.4",
     "vue-future-slider": "^1.0.5",
     "vue-image-zoomer": "^2.2.3",
     "vue-slick-carousel": "^1.0.6",
