@@ -1,7 +1,7 @@
 <template>
   <Carousel v-bind="settings" :breakpoints="breakpoints">
     <Slide v-for="slide in products" :key="slide">
-      <div class="carousel__item bg-slate-300 w-11/12 mt-5 h-96 bg-opacity-50 ml-2 rounded-2xl">
+      <div class="carousel__item bg-slate-300 w-11/12 mt-5 h-96 bg-opacity-50 ml-2 rounded-2xl -z-10">
          <indexslideshow  :slide=slide />
        </div>
     </Slide>
