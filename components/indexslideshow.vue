@@ -28,7 +28,7 @@ import { ref, watch } from 'vue'
 
 
 const {slide}=defineProps(['slide'])
-console.log(slide);
+
 
 
 let color='red'
