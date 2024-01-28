@@ -61,7 +61,7 @@ useHead({
 })
 
 
-  const url=('https://api.escuelajs.co/api/v1/products?offset=6&limit=16')
+  const url=('https://api.escuelajs.co/api/v1/products?offset=6&limit=10')
   const {data:products}= await useFetch(url).json()
 
 
