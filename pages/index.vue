@@ -1,6 +1,8 @@
 <template>
-  <carsoul class="relative" />
- 
+<!---- <search-bar></search-bar>--->
+<br>
+  <carsoul class="" />
+
 </template>
 
 <script>
