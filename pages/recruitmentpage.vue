@@ -7,33 +7,33 @@
 <form method="post"  id="form_1" action="" >
          <div class="container w-11/12 mx-auto mt-2">
         <div class="grid grid-cols-3 bg-slate-300 p-4 rounded-2xl bg-opacity-70">
-           <div id="field_1_1" class="gfield isible">
-                <label class="" for="input_1_1">نام و نام خانوادگی<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label>
+           <div id="field_1_1" class="">
+                <label class="" for="input_1_1">نام و نام خانوادگی<span class=""><span class="">*</span></span></label>
                 <div class=""><input name="input_1" id="input_1_1" type="text" value="" class="" aria-required="true" aria-invalid="false"></div></div>
              <div id="field_1_3" class="" data-js-reload="field_1_3">
                 <label class="" for="input_1_3">نام پدر</label>
-                <div class=""><input name="input_3" id="input_1_3" type="text" value="" class="large" aria-invalid="false"></div>
+                <div class=""><input name="input_3" id="input_1_3" type="text" value="" class="" aria-invalid="false"></div>
             </div>
-             <div id="field_1_15" class="gfid_">
+             <div id="field_1_15" class="">
                <label class="" for="input_1_15">ایمیل</label>
-               <div class=""><input name="input_15" id="input_1_15" type="text" value="" class="large" aria-invalid="false"></div>
+               <div class=""><input name="input_15" id="input_1_15" type="text" value="" class="" aria-invalid="false"></div>
             </div>
            <div id="field_1_4" class="" >
-                <label class="gfield_label gform-field-label" for="input_1_4">کد ملی<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">
+                <label class="" for="input_1_4">کد ملی<span class="gfield_required"><span class="">
                 *</span></span></label>
                 <div class=""><input name="input_4" id="input_1_4" type="text" value="" class="" aria-required="true" aria-invalid="false" maxlength="10">
-                </div><span class="ir_national_id_location" id="ir_national_id_location_4"></span>
+                </div><span class="" id="ir_national_id_location_4"></span>
             </div>
-             <div id="field_1_22" class="gfield gfield--type-phone gfield--width-third gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_22">
-                <label class="gfield_label gform-field-label" for="input_1_22">شماره همراه
-                <span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span>
+             <div id="field_1_22" class="" data-js-reload="field_1_22">
+                <label class="" for="input_1_22">شماره همراه
+                <span class=""><span class="">*</span></span>
                 </label>
-                <div class="ginput_container ginput_container_phone"><input name="input_22" id="input_1_22" type="text" value="" class="large" aria-required="true" aria-invalid="false"></div>
+                <div class=""><input name="input_22" id="input_1_22" type="text" value="" class="large" aria-required="true" aria-invalid="false"></div>
             </div>
-              <fieldset id="field_1_5" class="gfield gfield--type-date gfield--input-type-datedropdown gfield--width-third field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_5">
-              <legend class="gfield_label gform-field-label">تاریخ تولد</legend>
-              <div id="input_1_5" class="flex">
-              <div class="gfield_date_dropdown_year ginput_container ginput_container_date gform-grid-col" id="input_1_5_3_container">
+              <fieldset id="field_1_5" class="" data-js-reload="field_1_5">
+              <legend class="">تاریخ تولد</legend>
+              <div id="input_1_5" class="flex gap-2">
+              <div class="" id="input_1_5_3_container">
               <select name="input_5[]" id="input_1_5_3" aria-required="false">
               <option value="">سال</option>
               <option value="1424">1424</option>
@@ -213,20 +213,20 @@
               <option value="31">31</option>
             </select></div></div></fieldset>
           <div id="field_1_8" class="" data-js-reload="field_1_8">
-              <label class="gfield_label gform-field-label" for="input_1_8">شماره تلفن ثابت</label>
-              <div class=""><input name="input_8" id="input_1_8" type="text" value="" class="large" aria-invalid="false"></div>
+              <label class="" for="input_1_8">شماره تلفن ثابت</label>
+              <div class=""><input name="input_8" id="input_1_8" type="text" value="" class="" aria-invalid="false"></div>
             </div>
            <div id="field_1_6" class="" data-js-reload="field_1_6">
               <label class="" for="input_1_6">وضعیت تاهل</label>
               <div class="">
-              <select name="input_6" id="input_1_6" class="large gfield_select" aria-invalid="false">
+              <select name="input_6" id="input_1_6" class="" aria-invalid="false">
               <option value="مجرد">مجرد</option>
               <option value="متاهل">متاهل</option>
               </select></div></div>
              <div id="field_1_7" class="">
-              <label class="gfield_label gform-field-label" for="input_1_7">میزان تحصیلات</label>
-              <div class="ginput_container ginput_container_select">
-              <select name="input_7" id="input_1_7" class="large gfield_select" aria-invalid="false">
+              <label class="" for="input_1_7">میزان تحصیلات</label>
+              <div class="">
+              <select name="input_7" id="input_1_7" class="" aria-invalid="false">
               <option value="مشغول به تحصیل">مشغول به تحصیل</option>
               <option value="فوق لیسانس">فوق لیسانس</option>
               <option value="لیسانس">لیسانس</option>
@@ -236,49 +236,49 @@
               <option value="بدون تحصیلات">بدون تحصیلات</option>
             </select></div></div>
             <div id="field_1_9" class="">
-                 <label class="gfield_label gform-field-label" for="input_1_9">میزان سابقه مرتبط با طبیعت گردی و گردشگری</label>
-                 <div class="ginput_container ginput_container_select">
-                 <select name="input_9" id="input_1_9" class="large gfield_select" aria-invalid="false">
+                 <label class="" for="input_1_9">میزان سابقه مرتبط با طبیعت گردی و گردشگری</label>
+                 <div class="">
+                 <select name="input_9" id="input_1_9" class="" aria-invalid="false">
                  <option value="بدون سابقه">بدون سابقه</option>
                  <option value="دارای سابقه">دارای سابقه</option>
             </select></div>
             </div>
             <div id="field_1_23" class="">
-              <label class="gfield_label gform-field-label" for="input_1_23">میزان سابقه برحسب سال</label>
+              <label class="" for="input_1_23">میزان سابقه برحسب سال</label>
               <div class="">
-              <select name="input_23" id="input_1_23" class="large gfield_select" aria-invalid="false">
+              <select name="input_23" id="input_1_23" class="" aria-invalid="false">
               <option value="یک سال">یک سال</option>
               <option value="دو سال">دو سال</option>
               <option value="سه سال">سه سال</option>
               <option value="بیشتر از چهار سال">بیشتر از چهار سال</option>
             </select></div></div>
             <div id="field_1_24" class="">
-            <label class="gfield_label gform-field-label" for="input_1_24">میزان سابقه در سایر سطوح کار</label>
+            <label class="" for="input_1_24">میزان سابقه در سایر سطوح کار</label>
             <div class="">
-            <select name="input_24" id="input_1_24" class="large gfield_select" aria-invalid="false">
+            <select name="input_24" id="input_1_24" class="" aria-invalid="false">
             <option value="یک سال">یک سال</option>
             <option value="دو سال">دو سال</option>
             <option value="سه سال">سه سال</option>
             <option value="بیشتر از چهار سال">بیشتر از چهار سال</option>
             </select></div></div>
              <div id="field_1_12" class="">
-            <label class="" for="input_1_12">امکان حضور<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label>
+            <label class="" for="input_1_12">امکان حضور<span class=""><span class="">*</span></span></label>
             <div class="">
-            <select name="input_12" id="input_1_12" class="large gfield_select" aria-required="true" aria-invalid="false">
+            <select name="input_12" id="input_1_12" class="" aria-required="true" aria-invalid="false">
             <option value="تمام وقت">تمام وقت</option>
             <option value="پاره وقت">پاره وقت</option>
             </select></div></div>
             <div id="field_1_14" class="">
-            <label class="gfield_label gform-field-label" for="input_1_14">آدرس محل سکونت</label>
+            <label class="" for="input_1_14">آدرس محل سکونت</label>
             <div class="">
-            <select name="input_14" id="input_1_14" class="large gfield_select" aria-invalid="false">
+            <select name="input_14" id="input_1_14" class="" aria-invalid="false">
             <option value="تهران">تهران</option>
             <option value="حومه تهران">حومه تهران</option>
             <option value="خارج از تهران و شهرستان های دیگر">خارج از تهران و شهرستان های دیگر</option></select><div></div>
             <div id="field_1_18" class="">
             <label class="" for="input_1_18">عنوان شغلی مورد تقاضا</label>
             <div class="">
-            <select name="input_18" id="input_1_18" class="large gfield_select" aria-invalid="false">
+            <select name="input_18" id="input_1_18" class="" aria-invalid="false">
             <option value="کارشناس فروش فروشگاهی">کارشناس فروش فروشگاهی</option>
             <option value="کارشناس تامین و خرید">کارشناس تامین و خرید</option>
             <option value="کارشناس فنی و تعمیرات">کارشناس فنی و تعمیرات</option>
@@ -295,26 +295,26 @@
             <option value="سایر">سایر</option>
             </select></div></div>
             <div id="field_1_19" class="" style="display: none;">
-            <label class="gfield_label gform-field-label" for="input_1_19">سایر</label>
-            <div class="ginput_container ginput_container_text"><input name="input_19" id="input_1_19" type="text" value="" class="large" aria-invalid="false" disabled="disabled"></div></div>
+            <label class="" for="input_1_19">سایر</label>
+            <div class=""><input name="input_19" id="input_1_19" type="text" value="" class="" aria-invalid="false" disabled="disabled"></div></div>
             <div id="field_1_21" class="">
-            <label class="gfield_label gform-field-label" for="input_1_21">عکس پرسنلی</label>
-            <div class="ginput_container ginput_container_fileupload"><input type="hidden" name="MAX_FILE_SIZE" value="536870912"><input name="input_21" id="input_1_21" type="file" class="large" aria-describedby="gfield_upload_rules_1_21" onchange="javascript:gformValidateFileSize( this, 536870912 );"><span class="gfield_description gform_fileupload_rules" id="gfield_upload_rules_1_21">Max. file size: 512 MB.</span><div class="gfield_description validation_message gfield_validation_message validation_message--hidden-on-empty" id="live_validation_message_1_21"></div></div></div>
+            <label class="" for="input_1_21">عکس پرسنلی</label>
+            <div class=""><input type="hidden" name="MAX_FILE_SIZE" value="536870912"><input name="input_21" id="input_1_21" type="file" class="" aria-describedby="gfield_upload_rules_1_21" onchange="javascript:gformValidateFileSize( this, 536870912 );"><span class="gfield_description gform_fileupload_rules" id="gfield_upload_rules_1_21">Max. file size: 512 MB.</span><div class="gfield_description validation_message gfield_validation_message validation_message--hidden-on-empty" id="live_validation_message_1_21"></div></div></div>
             <div id="field_1_20" class="">
-            <label class="gfield_label gform-field-label" for="input_1_20">فایل رزومه</label>
-            <div class="ginput_container ginput_container_fileupload"><input type="hidden" name="MAX_FILE_SIZE" value="52428800"><input name="input_20" id="input_1_20" type="file" class="large" aria-describedby="gfield_upload_rules_1_20 gfield_description_1_20" onchange="javascript:gformValidateFileSize( this, 52428800 );"><span class="gfield_description gform_fileupload_rules" id="gfield_upload_rules_1_20">Max. file size: 50 MB.</span><div class="gfield_description validation_message gfield_validation_message validation_message--hidden-on-empty" id="live_validation_message_1_20"></div></div>
-            <div class="gfield_description" id="gfield_description_1_20">در صورت داشتن فایل رزومه در این بخش برای ما آپلود کنید</div></div>
+            <label class="" for="input_1_20">فایل رزومه</label>
+            <div class=""><input type="hidden" name="MAX_FILE_SIZE" value="52428800"><input name="input_20" id="input_1_20" type="file" class="" aria-describedby="gfield_upload_rules_1_20 gfield_description_1_20" onchange="javascript:gformValidateFileSize( this, 52428800 );"><span class="" id="gfield_upload_rules_1_20">Max. file size: 50 MB.</span><div class="" id="live_validation_message_1_20"></div></div>
+            <div class="" id="description_1_20">در صورت داشتن فایل رزومه در این بخش برای ما آپلود کنید</div></div>
             
             </div></div>
 
-             <div class=""><input type="submit" id="gform_submit_button_1" class="gform_button button" value="ثبت درخواست" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"> 
-            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
-            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+             <div class=""><input type="submit" id="gform_submit_button_1" class="" value="ثبت درخواست" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"> 
+            <input type="hidden" class="" name="is_submit_1" value="1">
+            <input type="hidden" class="" name="gform_submit" value="1">
             
-            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-            <input type="hidden" class="gform_hidden" name="state_1" value="WyJ7XCI2XCI6W1wiN2M5ZTc2ZGJkZDg4ZGUyNTU2Y2YyOTNkZTQxNmU1ZmVcIixcIjY3YTg3Y2E5MTlhNDZmMjkyNjY1ZGNhZjcxYTZkZmQwXCJdLFwiN1wiOltcImViYWVhZjExODM4MjRhYTYyZTZlYjBlMDQyNmIyM2RhXCIsXCI0OGMxMTE0OGJhZWM3YmJjMmI4ODhlMjA2MWVhYTY3NVwiLFwiMjFjYzQ2YTA1NGIwZTk1N2I3YzQyODMzNTRlY2EyMmRcIixcImNhZjEyMTg1M2NiOGMxNTg4MTczM2E2OTI2MGZjNGU3XCIsXCI0NmRlZGM2OTA0OTQ3ZDQ2ZjY5MzAzYmIxOTIxMTA3NVwiLFwiMThhODgzYTEyYTM1NjgzN2IzZTNjNzNmZDY2ZjFhYTNcIixcIjg3N2U0OGE4M2M3MmE2MDYyYmQ2YjZkYWMwZjRkMGFjXCJdLFwiOVwiOltcIjA2N2Y3Mjg2Y2FjNjliNTE3ZjQ1ZGFhMzczMjc4ZTNmXCIsXCI2YWQ2ZGU5OGY1YWQxM2RhNTc3MGQyOGE4Y2VkODAyZVwiXSxcIjIzXCI6W1wiNzljZGYzZDlkZjE0NDgzYTQyZWMxMDg4OTM5ZDQ5OThcIixcImJiMTIzOGExODZkZWRkOTg5NDg0OWMyYWZmOGM0MWVhXCIsXCI4N2VkMzVhNGZjYzUyNmRlZThjNzY2Nzc2MzM4YjM2ZVwiLFwiNTdiNzAwM2Q5YjNjOGI2MDQ3MmZiNTAwNmIzN2JiMzNcIl0sXCIyNFwiOltcIjc5Y2RmM2Q5ZGYxNDQ4M2E0MmVjMTA4ODkzOWQ0OTk4XCIsXCJiYjEyMzhhMTg2ZGVkZDk4OTQ4NDljMmFmZjhjNDFlYVwiLFwiODdlZDM1YTRmY2M1MjZkZWU4Yzc2Njc3NjMzOGIzNmVcIixcIjU3YjcwMDNkOWIzYzhiNjA0NzJmYjUwMDZiMzdiYjMzXCJdLFwiMTJcIjpbXCI0NmFmNDUzYjc1NmY0MGE1MTQzYmMyNmU2ZjFmOTc1NlwiLFwiNzdjZTQ0NTA0NzdmOWUzYWM3NDJkZTE5N2Y1YzU0ZDVcIl0sXCIxNFwiOltcImU3YWMyMTY5ZDYxZTc5NGIwMjc3Zjc2OTcyYzExNGJjXCIsXCJmYmZmYzg4NmRlN2JjNGZlYjE3N2I2YzBkODUxYWYyY1wiLFwiMmMyOGIzY2E4OWM1MzZkZTM5M2I5ZDEwZGZkNjBlZWZcIl0sXCIxOFwiOltcImQ0ZDNkM2YyYjAyZTM5ODRkMDA5ZmMxZTRkMTk4ODgzXCIsXCIxOTJmMTBiMjVhZDdmM2YyMzZlOTY0Mzc0ZDFjNzhhY1wiLFwiYWIyN2M2MDZlMmVjNTg4YzU2YzVjODljZjA4YTRlMzhcIixcIjgxMTQ5NmVjMzRlMGIyYmQ3NzNiNjk4YTU4MGI2NjQ2XCIsXCI0MjVlNzM4NmZkZjA3NjIxZWNkMDcyY2E0MjBlM2UyM1wiLFwiZTFkMWRkM2I3ZGVhODUzOWM2MzVlNzgzNjlmYzAyOGRcIixcIjBhNDZmZDRiOWU5NTJiNWE5NTY1NjM5YTA4YjVlZDU5XCIsXCJhZTk4MTJjOTc3YjIyYjcwNDE4YTVkYjVmZmFiZjQwZVwiLFwiNmFjMmZiNDYyNWM3MmYzOWY0MzE0MDc1N2YxNWQ5ZTZcIixcIjRmZTdkNzJiYjU4NzQzY2ZmM2FhYTNkZjg0Yjg0YjAwXCIsXCI2MmIyMThkOTFiZjFjN2JhNzY5ZDg0ZWMxNWQ5MjMzZVwiLFwiZjBkNDZmZTIxZTAwYTBkZjM5YmU2MTQzODhiNmQ2ZjNcIixcImM1NjA0MjA1YzA3YzI5YTIzNGYwMDFmNTkyY2U1Yjc5XCIsXCJjNzk3OTcxNjgwOTAyYzc1NDU1ZGRmNWYyOTliNjVkOVwiXX0iLCJiNTliODIwMTUyOTQ4MDRhZmUwMTJkZGE3YmQwNDdlZSJd">
-            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
-            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+            <input type="hidden" class="" name="gform_unique_id" value="">
+            <input type="hidden" class="" name="state_1" value="">
+            <input type="hidden" class="" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+            <input type="hidden" class="" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
             <input type="hidden" name="gform_field_values" value="">
              </div>
              
