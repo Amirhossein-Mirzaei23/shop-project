@@ -17,7 +17,8 @@ useHead({
 })
 const prop = defineProps(['id'])
 
-  const url=(`https://api.escuelajs.co/api/v1/categories/${route.params.id}/products`)
+  const url=(`https://api.escuelajs.co/api/v1/categories/${route.params.id}/products?offset=0&limit=10
+`)
   const {data:products}= await useFetch(url).json()
 
 </script>
