@@ -11,7 +11,7 @@
 <!---navbarIcon--->
     <div id="navIcons" class="w-6/12 grid grid-cols-3 gap-2 items-center justify-items-center col-span-4">
     <div class="w-6/12 h-4/6 rounded-full bg-opacity-10 hover:scale-125 transition-all duration-500"><img src="../assets/gifs/Instagram.gif" alt="Instagram Icon"></div>
-    <div class="w-6/12 h-4/6 rounded-full bg-opacity-10 hover:scale-125 transition-all duration-500"><img src="../assets/gifs/Telegram.gif" alt="Telegram"></div>
+    <div @click="telIdInfo" class="w-6/12 h-4/6 rounded-full bg-opacity-10 hover:scale-125 transition-all duration-500"><img src="../assets/gifs/Telegram.gif" alt="Telegram"></div>
     <div class="w-6/12 h-4/6 rounded-full bg-opacity-10 hover:scale-125 transition-all duration-500"><img src="../assets/gifs/loction.gif" alt="loction"></div>
       </div>
     </div>
@@ -66,7 +66,10 @@ const dropDown=reactive({
 
   const categoriesUrl=('https://api.escuelajs.co/api/v1/categories?offset=0&limit=5')
   const {data:productCategories}= await useFetch(categoriesUrl).json()
-
+/// create a function to show telegram id by click on telegram Icon
+function telIdInfo(){
+  toastr.info(`Telegram id : @Amir_Mirzaei9731`)
+}
 </script>
 
 <script>
