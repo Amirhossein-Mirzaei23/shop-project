@@ -307,6 +307,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+  middleware:'check'
+})
+
 const animationArray=['animate__rubberBand','animate__pulse','animate__flipInY','animate__bounceIn','animate__flipInX','animate__flipInY']
 
 let target=null
