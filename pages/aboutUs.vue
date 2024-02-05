@@ -1,6 +1,6 @@
 <template>
-    <div>
-<h1>aa</h1>
+    <div class="w-11/12 container mx-auto mt-3 rounded-xl ">
+
     </div>
 </template>
 
