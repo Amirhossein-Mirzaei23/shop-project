@@ -29,7 +29,7 @@
 
 <script setup>
 import { ref} from 'vue'
-
+//create varible to store seach bar input value
 let keyword=ref()
 let {data:search}= await useFetch(`https://api.escuelajs.co/api/v1/products/?title=${keyword.value}`)
 
