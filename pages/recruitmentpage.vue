@@ -310,9 +310,9 @@
 definePageMeta({
   middleware:'check'
 })
-
+///create an array to store animation class of animate.css
 const animationArray=['animate__rubberBand','animate__pulse','animate__flipInY','animate__bounceIn','animate__flipInX','animate__flipInY']
-
+///create avariable to store animation target
 let target=null
 let id
 function focusAnimation(event){
