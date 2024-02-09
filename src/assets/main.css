@@ -1,0 +1,31 @@
+/* ./src/assets/main.css */
+
+/* ... */
+
+.custom-slider.minmax input[type="range"] {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+  }
+  .custom-slider.minmax input[type="range"]::-webkit-slider-runnable-track {
+    background: none;
+  }
+  
+  .custom-slider.minmax::before {
+    left: var(--progressLeft);
+    right: var(--progressRight);
+    width: unset;
+  }
+  
+  .custom-slider.minmax input[type="range"]::before {
+    display: none;
+  }
+  
+  .minmax-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .minmax-inputs input {
+    width: 50px;
+  }

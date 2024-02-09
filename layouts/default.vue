@@ -41,7 +41,8 @@
  <slot />
 <hr>
 <footer class="mt-3">
- <lay-out-footer></lay-out-footer>
+ 
+ <LazyLayOutFooter/>
 </footer>
     </main>
 </template>

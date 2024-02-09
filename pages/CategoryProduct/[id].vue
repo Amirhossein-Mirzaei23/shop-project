@@ -1,8 +1,8 @@
 <template>
-<div class="container mt-1 grid grid-cols-4 gap-1 mx-auto">
-<div class="w-full h-screen bg-slate-600"></div>
+<div class="container mt-1 grid grid-cols-4 gap-3 mx-auto">
+<product-filter></product-filter>
     <div class="col-span-3 container mt-3 grid grid-cols-4 gap-1 mx-auto">
-     <div v-for="product in products" :key='product' class="w-full h-80 flex justify-items-center items-center bg-slate-400  border-2 border-teal-400 mb-2 mx-auto overflow-hidden">
+     <div v-for="product in products" :key='product' class="w-full h-80 flex justify-items-center items-center bg-slate-300 bg-opacity-80 rounded-3xl p-2 hover:scale-95 duration-500  border-2 border-teal-400 mb-2 mx-auto overflow-hidden">
       <prod :product=product />
       </div>
     </div>
