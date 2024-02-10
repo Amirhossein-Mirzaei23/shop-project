@@ -13,6 +13,9 @@ if (sliderMin.value) {
 }
 })
 
+function filterEvent() {
+      emit("updateName", "ali sheikh");
+    }
 </script>
 
 <template>
@@ -23,5 +26,7 @@ if (sliderMin.value) {
       v-model:min-value="sliderMin"
       v-model:max-value="sliderMax"
     />
+ <div><button @click="$emit('filterEvent',sliderMin,sliderMax)" class="hover:via-slate-600 hover:text-white hover:tracking-wider transition-all duration-500 bg-gradient-to-tr from-gray-400 via-slate-50 to-gray-400 text-lg p-2 rounded-xl">Filter</button>
+ </div>
   </div>
 </template>

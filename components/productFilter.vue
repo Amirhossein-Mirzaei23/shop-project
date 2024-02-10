@@ -4,11 +4,10 @@
     <div class="w-full h-5/6 text-center bg-teal-200 rounded-lg flex justify-center items-center"><h1 class="font-sans text-xl">Filter by price</h1></div>
     <div class="float-left flex gap-3 justify-center px-5 w-11/12 relative mt-2 row-span-2 mx-auto">
 
-  <div class="w-11/12"><custom-slider-test></custom-slider-test></div>
+  <div class="w-11/12"><custom-slider-test @filterEvent="filter" /></div>
     </div>
     <div class="mt-10 w-11/12 mx-auto">
-        <button @click="filter" class="hover:via-slate-600 hover:text-white hover:tracking-wider transition-all duration-500 bg-gradient-to-tr from-gray-400 via-slate-50 to-gray-400 text-lg p-2 rounded-xl">Filter</button>
-    </div>
+     </div>
 
 </section>
 
@@ -20,13 +19,28 @@ import{defineEmits} from 'vue'
 const maxvalue=defineModel('maxvalue')
 const minvalue=defineModel('minvalue')
 
-const sliderMin=ref(50)
-const minvalueInput=ref()
+const sliderMin=ref(0)
+const sliderMax=ref(0)
 
-function filter(){
- console.log(minvalueInput);
+async function filter(min,max){
+
+console.log("min: ",min,"max: ",max);
+/// productFilter ,emit
+//const emit=defineEmits(["updateProduct"],[productFilter])
+emitValue(min,max)
+return {min,max,sliderMax}
 }
 
+const emit=defineEmits['emitValue']
+
+function emitValue(minValue,maxValue){
+console.log(minValue,maxValue);
+}
+
+//  const {data:productFilter}=await useFetch(`https://api.escuelajs.co/api/v1/products/?price_min=${min}&price_max=${max}`)
+//  watchEffect(min,(newVAl)=>{
+//      console.log(newVAl);
+//  })
 </script>
 <script>
 export default {
