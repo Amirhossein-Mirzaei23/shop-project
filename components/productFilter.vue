@@ -10,7 +10,7 @@
      </div>
 
 </section>
-
+<button @click="$emit('filterEventt',productFilter,amir)" class="p-2 bg-teal-300 hover:bg-opacity-50 border-2 border-teal-400 rounded-xl">show data</button>
     </div>
 </template>
 
@@ -31,13 +31,16 @@ emitValue(min,max)
 return {min,max,sliderMax}
 }
 
-const emit=defineEmits['emitValue']
-
-function emitValue(minValue,maxValue){
-console.log(minValue,maxValue);
+// const emitVal=defineEmits['emitValue']
+defineEmits(['inFocus', 'submit'])
+async function emitValue(min,max){
+    const {data:productFilter}=await useFetch(`https://api.escuelajs.co/api/v1/products/?price_min=${min}&price_max=${max}`)
+    return productFilter
+//
 }
 
-//  const {data:productFilter}=await useFetch(`https://api.escuelajs.co/api/v1/products/?price_min=${min}&price_max=${max}`)
+let amir=157
+
 //  watchEffect(min,(newVAl)=>{
 //      console.log(newVAl);
 //  })
@@ -45,7 +48,7 @@ console.log(minValue,maxValue);
 <script>
 export default {
     setup() {
-       
+ 
     }
 }
 </script>
