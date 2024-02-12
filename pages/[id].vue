@@ -56,7 +56,7 @@ let id=ref(10)
 const url=`https://api.escuelajs.co/api/v1/products/12`
 
   const {data:singleProduct}= await useFetch(url).json()
-
+////create variable to store aviability of a product
   const position="Available"
 
 ///  const nextt=async()=>{
